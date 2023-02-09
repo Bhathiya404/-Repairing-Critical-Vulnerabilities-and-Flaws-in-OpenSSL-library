@@ -1,0 +1,3 @@
+# -Repairing-Critical-Vulnerabilities-and-Flaws-in-OpenSSL-library
+
+In this project, I'll look into some flaws in the OpenSSL 1.0.1 software library. I'll look into this code utilizing the manual code analysis method. I was able to find and fix a heap overflow vulnerability, an error in the OCSP Status Request extension unbounded memory growth, a bug in the Sanity check ticket length, a problem with the DTLS buffered message, a problem with the DTLS replay protection, and a problem with OpenSSL error handling by using the manual code analysis method. I was also able to fix the Heartbleed bug in OpenSSL 1.0.1. 
